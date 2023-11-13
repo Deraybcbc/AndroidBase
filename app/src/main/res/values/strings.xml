@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidYBase</string>
+
+    <string name="Guardar">Guardar</string>
+    <string name="Insertar">Insertar</string>
+    <string name="Editar">Editar</string>
+    <string name="Eliminar">Eliminar</string>
+</resources>
