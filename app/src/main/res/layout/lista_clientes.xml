@@ -16,16 +16,58 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/InfoNom"
                 android:layout_width="match_parent"
-                android:layout_height="44dp"
+                android:layout_height="40dp"
                 android:layout_weight="1"
                 android:text="TextView" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/infoApe"
                 android:layout_width="match_parent"
-                android:layout_height="44dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/InfoUser"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/infoCon"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/infoDire"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/infoTel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/infoEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/infoFecha"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
                 android:layout_weight="1"
                 android:text="TextView" />
 
@@ -39,6 +81,7 @@
                     android:id="@+id/button2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:text="@string/Editar" />
 
@@ -46,6 +89,7 @@
                     android:id="@+id/button3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:text="@string/Eliminar" />
             </LinearLayout>
